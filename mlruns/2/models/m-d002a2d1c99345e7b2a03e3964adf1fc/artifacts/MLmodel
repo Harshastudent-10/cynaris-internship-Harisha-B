@@ -1,0 +1,23 @@
+artifact_path: file:c:/Users/USER/Desktop/Numpy&pandas/mlruns/2/models/m-d002a2d1c99345e7b2a03e3964adf1fc/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.13.2
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.7.1
+    skops_trusted_types: null
+mlflow_version: 3.16.0
+model_id: m-d002a2d1c99345e7b2a03e3964adf1fc
+model_size_bytes: 15774
+model_uuid: m-d002a2d1c99345e7b2a03e3964adf1fc
+prompts: null
+run_id: 73911956e56241a2a0165dc6a236a2b3
+utc_time_created: '2026-09-20 10:19:30.932536'
